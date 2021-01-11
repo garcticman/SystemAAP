@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde1e9d9-e299-4ed8-ab1c-fbf8df34b406" name="Default Changelist" comment="" />
+    <list default="true" id="cde1e9d9-e299-4ed8-ab1c-fbf8df34b406" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task06/filemanager.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task06/filemanager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +37,11 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Programs\goprojs\go1.15.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jSAN5Ht0wKi2EX2yAdFXYN4DE6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +57,40 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Test.TestScalarProduct in task05_test.go">
+  <component name="RunManager" selected="Go Test.TestGetFileNamesInSizeRange in tasks/task06">
+    <configuration name="TestGetFileNamesInSizeRange in tasks/task06" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/task06" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="tasks/task06" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGetFileNamesInSizeRange\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetMaxSizeFileInDir in tasks/task06" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/task06" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="tasks/task06" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGetMaxSizeFileInDir\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetMaxSizeFileNamInDir in tasks/task06" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/task06" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="tasks/task06" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGetMaxSizeFileNamInDir\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestScalarProduct in task05_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="tasks" />
       <working_directory value="$PROJECT_DIR$/task05" />
@@ -54,32 +113,13 @@
       <pattern value="^\QTestScalarProduct\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTranspose in task04_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="tasks" />
-      <working_directory value="$PROJECT_DIR$/matrix" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/matrix/task04_test.go" />
-      <pattern value="^\QTestTranspose\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTranspose in task04_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="tasks" />
-      <working_directory value="$PROJECT_DIR$/matrix" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/matrix/task04_test.go" />
-      <pattern value="^\QTestTranspose\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGetFileNamesInSizeRange in tasks/task06" />
+        <item itemvalue="Go Test.TestGetMaxSizeFileInDir in tasks/task06" />
+        <item itemvalue="Go Test.TestGetMaxSizeFileNamInDir in tasks/task06" />
         <item itemvalue="Go Test.TestScalarProduct in task05_test.go" />
         <item itemvalue="Go Test.TestScalarProduct in tasks/task05" />
-        <item itemvalue="Go Test.TestTranspose in task04_test.go (1)" />
-        <item itemvalue="Go Test.TestTranspose in task04_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -87,37 +127,76 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="561" y="70" key="#GOPATH" timestamp="1604845690328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="70" key="#GOPATH/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604845690328" />
     <state x="561" y="70" key="#GOPATH/0.0.1536.824@0.0.1536.824" timestamp="1603787797178" />
+    <state width="521" height="466" key="DebuggerActiveHint" timestamp="1610389254152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="521" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610389254152" />
     <state x="718" y="97" key="FileChooserDialogImpl" timestamp="1605111502020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="718" y="97" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604845689457" />
     <state x="718" y="97" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605111502020" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604852442656">
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1606329785460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604852442656" />
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1606329785460" />
+    <state x="641" y="117" key="Github.UntrackedFilesDialog" timestamp="1606329808787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="641" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606329808787" />
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1610390730731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610390730731" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604605614144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604852442656">
+    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1610390730731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604852442656" />
+    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610390730731" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604605614144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604852442656">
+    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1610390730731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604852442656" />
+    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610390730731" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604605614144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604852442656">
+    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1610390730731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604852442656" />
+    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610390730731" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604605614144" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610389405183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610389405183" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1610389405183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610389405183" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1610389405183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610389405183" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1610389405183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1610389405183" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1604845664136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
